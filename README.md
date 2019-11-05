@@ -1,6 +1,11 @@
 # blockchain-sample
 
-** 一个简明的python示例说明区块链原理**
+
+350137278@qq.com
+
+2019-11-05
+
+**一个简明的python示例说明区块链原理**
 
 参考文章：
 
@@ -8,7 +13,7 @@
 
 [Learn Blockchains by Building One](https://hackernoon.com/learn-blockchains-by-building-one-117428612f46)
 
-区块链技术原理并不复杂，是一种建立在p2p网络之上的分布式数据加密存储模型。理论上每个节点都存储一个数据的加密备份，并能验证数据的正确性和不可篡改。有多种开源实现，但是场景各有不同。本文是按照
+区块链技术原理并不复杂，是一种建立在p2p网络之上的分布式数据加密存储模型。理论上每个节点都存储一个数据的加密备份，并能验证数据的正确性和不可篡改。有多种开源实现，但是场景各有不同。
 
 ## 示例代码
 
@@ -45,7 +50,9 @@ pysrc/nodeserver.py - 区块链网络服务模拟实现
 使用 RESTED 插件，在每个节点上执行注册（？=1，2）：
 
 POST=http://yourhost:500？/nodes/register
+
 Type=JSON
+
 Name=nodes Value=["http://yourhost:5001","http://yourhost:5002"]
 
 或者：
