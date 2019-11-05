@@ -34,16 +34,24 @@
 
 	1)
 		http://yourhost:5001/transactions/new  创建一个交易并添加到区块
+
 		http://yourhost:5001/mine              挖掘新的区块
+
 		http://yourhost:5001/chain             返回整个区块链
+		
 		http://yourhost:5001/nodes/register    注册节点, 每个节点注册全部节点
+
 		http://yourhost:5001/nodes/resolve     解决节点冲突
 
 	2)
 		http://yourhost:5002/transactions/new  创建一个交易并添加到区块
+
 		http://yourhost:5002/mine              挖掘新的区块
+
 		http://yourhost:5002/chain             返回整个区块链
+
 		http://yourhost:5002/nodes/register    注册节点, 每个节点注册全部节点
+		
 		http://yourhost:5002/nodes/resolve     解决节点冲突
 
 ## 注册节点
