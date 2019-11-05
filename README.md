@@ -17,8 +17,9 @@
 
 ## 示例代码
 
-pysrc/blockchain.py - 区块链算法模拟实现
-pysrc/nodeserver.py - 区块链网络服务模拟实现
+    pysrc/blockchain.py - 区块链算法模拟实现
+
+    pysrc/nodeserver.py - 区块链网络服务模拟实现
 
 ## 启动节点测试
 
